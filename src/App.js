@@ -1,10 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class App extends Component {
+class App extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = {}
+  }
+
   render () {
     return (
       <div className='App'>
-        <h1>Hello World!</h1>
+        <h2>塔を立てるときは, まず座って費用を計算しよう</h2>
       </div>
     )
   }
