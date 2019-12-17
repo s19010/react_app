@@ -1,8 +1,4 @@
-import React from './react'
-
-const Hello = props => {
-  return <h1>Hello, world!</h1>
-}
+import React from 'react'
 
 class App extends React.Component {
   constructor (props) {
@@ -10,11 +6,7 @@ class App extends React.Component {
     this.state = {}
   }
   render () {
-    return (
-      <div>
-        <Hello />
-      </div>
-    )
+    return <div></div>
   }
 }
 
