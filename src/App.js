@@ -1,10 +1,18 @@
-import React, { Component } from 'react'
+import React from './react'
 
-class App extends Component {
+const Hello = props => {
+  return <h1>Hello, world!</h1>
+}
+
+class App extends React.Component {
+  constructor (props) {
+    super(props)
+    this.state = {}
+  }
   render () {
     return (
-      <div className='App'>
-        <h1>Hello World!</h1>
+      <div>
+        <Hello />
       </div>
     )
   }
